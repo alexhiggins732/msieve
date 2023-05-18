@@ -5,4 +5,10 @@ libmsieve.a
 *.no
 .vs/
 *.user
-/build.vc14/common/x64/Debug
+
+bin/
+debug/
+/lib/
+bin/
+x64/
+Win32/
