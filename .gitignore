@@ -7,8 +7,6 @@ libmsieve.a
 *.user
 
 bin/
-debug/
-/lib/
-bin/
+debug
 x64/
 Win32/

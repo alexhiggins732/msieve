@@ -589,7 +589,7 @@ int main(int argc, char **argv) {
 	else {
 		FILE *infile = fopen(infile_name, "r");
 		if (infile == NULL) {
-			printf("cannot open input file '%s'\n", infile_name);
+			printf("cannot open input file '%s': %s\n", infile_name, strerror(errno));
 			return 0;
 		}
 
